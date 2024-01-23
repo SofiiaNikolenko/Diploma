@@ -1,0 +1,174 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+}
+
+body {
+  background-color: aquamarine;
+}
+
+/* HEADER */
+
+.header {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 32px;
+}
+.header-nav {
+}
+.header-nav-list {
+  display: flex;
+  gap: 32px;
+}
+.header-nav-list-item {
+}
+.list-item-svg {
+}
+.list-item-link {
+}
+.header-logo {
+}
+.header-list-authentication {
+  display: flex;
+  gap: 32px;
+}
+.header-list-authentication-item {
+}
+.header-list-authentication-link {
+}
+.login {
+}
+.signup {
+  background-color: #fff;
+  padding: 15px 25px;
+  border-radius: 8px;
+}
+
+/* MAIN */
+
+/* HERO SECTION */
+
+.hero {
+}
+.hero-container {
+  font-weight: 700;
+  padding: 54px 0;
+  max-width: 754px;
+  margin: 0 auto;
+  text-align: center;
+}
+.hero-title-one {
+  font-size: 45px;
+  line-height: 57px;
+  margin-bottom: 4px;
+}
+.hero-title-two {
+  font-size: 80px;
+  line-height: 101px;
+  margin-bottom: 16px;
+}
+.hero-title-three {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+/* PLACES SECTION */
+
+.places {
+}
+.places-container {
+}
+
+.places-information {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.places-title {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 39px;
+  margin-bottom: 16px;
+}
+.places-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.places-button {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  border: rgba(141, 211, 187, 1) 1px solid;
+  border-radius: 4px;
+
+  padding: 11px 16px;
+}
+.places-list {
+}
+.places-list-item {
+  background-color: #fff;
+  max-width: 390px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border-radius: 16px;
+}
+
+.places-list-item-information {
+}
+
+.places-list-item-img {
+}
+.places-list-item-title {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  margin-bottom: 8px;
+}
+.places-list-item-description {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+}
