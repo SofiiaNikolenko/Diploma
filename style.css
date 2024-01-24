@@ -46,10 +46,15 @@ img {
 }
 
 .container {
+  width: 1262px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 body {
-  background-color: aquamarine;
+  background-color: var(--body-color);
+  font-family: "Montserrat", sans-serif;
 }
 
 /* HEADER */
@@ -62,13 +67,16 @@ body {
   width: 100%;
   top: 0;
   left: 0;
+  color: var(--neutral);
 }
 
 .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 32px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  /* padding: 24px 32px; */
 }
 .header-nav {
 }
@@ -95,7 +103,8 @@ body {
 .login {
 }
 .signup {
-  background-color: #fff;
+  background-color: var(--neutral);
+  color: var(--black);
   padding: 15px 25px;
   border-radius: 8px;
 }
@@ -105,6 +114,7 @@ body {
 /* HERO SECTION */
 
 .hero {
+  color: var(--neutral);
   height: 100vh;
   background-image: linear-gradient(
       0deg,
@@ -112,10 +122,10 @@ body {
       rgba(0, 0, 0, 0.6) 100%
     ),
     url(./img/Hero-img.png);
-  /* background-image: url(./img/Hero-img.png); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin-bottom: 80px;
 }
 .hero-container {
   font-weight: 700;
@@ -145,6 +155,7 @@ body {
 /* PLACES SECTION */
 
 .places {
+  margin-bottom: 80px;
 }
 .places-container {
 }
@@ -177,10 +188,13 @@ body {
   padding: 11px 16px;
 }
 .places-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
 }
 .places-list-item {
-  background-color: #fff;
-  max-width: 390px;
+  background-color: var(--neutral);
+  min-width: 389px;
   padding: 16px;
   display: flex;
   align-items: center;
