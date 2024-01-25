@@ -218,3 +218,30 @@ body {
   font-weight: 500;
   line-height: 17px;
 }
+
+/* EXAMPLES SECTION */
+
+.examples {
+}
+.examples-container {
+}
+.examples-list {
+  display: flex;
+}
+.examples-item {
+  position: relative;
+}
+.examples-item-img {
+}
+.examples-item-information {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.examples-item-title {
+}
+.examples-item-text {
+}
+.examples-item-link {
+}
