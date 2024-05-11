@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style-user.css" />
+    <title>Diploma-style-user-page</title>
+  </head>
+  <body>
+    <header class="header header-user">
+      <div class="container header-container">
+        <nav class="header-nav">
+          <ul class="header-nav-list">
+            <li class="header-nav-list-item">
+              <svg class="list-item-svg" width="1" height="1">
+                <use href=""></use>
+              </svg>
+              <a class="list-item-link" href="">Find Flight</a>
+            </li>
+            <li class="header-nav-list-item active-page">
+              <svg class="list-item-svg" width="1" height="1">
+                <use href=""></use>
+              </svg>
+              <a class="list-item-link" href="">Find Stays</a>
+            </li>
+          </ul>
+        </nav>
+        <a class="header-logo" href="#"
+          ><img src="./img/Logo.png" alt="logo"
+        /></a>
+        <ul class="header-list-authentication">
+          <li class="header-list-authentication-item">
+            <a class="header-list-authentication-link login" href="">Login</a>
+          </li>
+          <li class="header-list-authentication-item">
+            <a
+              class="header-list-authentication-link signup header-black-btn"
+              href=""
+              >Sign up</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="section-info-user">
+        <div class="container info-user-container">
+          <img
+            class="info-user-background"
+            src="./img/background-user.png"
+            alt=""
+          />
+          <div class="info-user">
+            <img class="info-user-avatar" src="./img/user.png" alt="" />
+            <h1 class="info-user-name">John Doe.</h1>
+            <p class="info-user-email">john.doe@gmail.com</p>
+          </div>
+        </div>
+      </section>
+      <section class="section-trip">
+        <div class="container trip-container">
+          <div class="title">
+            <h1 class="trip-title">Poland</h1>
+            <button class="change-button">change-button</button>
+          </div>
+          <p class="trip-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+            ratione quisquam officia inventore cum deserunt amet, dicta
+            veritatis accusantium blanditiis vel nobis ipsum quod sit quis, esse
+            sapiente. Ad, facere.
+          </p>
+          <div class="trip-todo">
+            <h2 class="title-user">Нотатки</h2>
+            <ul class="todo-category">
+              <li class="todo-category-item">
+                <p class="todo-category-title">Таблетки</p>
+                <ul class="todo-category-list">
+                  <li class="todo-category-list-item">Ношпа</li>
+                  <li class="todo-category-list-item">Аспірин</li>
+                  <li class="todo-category-list-item">Атоксіл</li>
+                </ul>
+              </li>
+              <li class="todo-category-item">
+                <p class="todo-category-title">Речі</p>
+                <ul class="todo-category-list">
+                  <li class="todo-category-list-item">Футболка</li>
+                  <li class="todo-category-list-item">Штани</li>
+                  <li class="todo-category-list-item">Білизна</li>
+                </ul>
+              </li>
+              <li class="todo-category-item">
+                <p class="todo-category-title">Засоби гігєни</p>
+                <ul class="todo-category-list">
+                  <li class="todo-category-list-item">Щітка та паста</li>
+                  <li class="todo-category-list-item">
+                    Мило, мампунь, бальзам
+                  </li>
+                  <li class="todo-category-list-item">Дейзодорнатн</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="section-foto-trip">
+        <div class="container foto-container">
+          <h2 class="title-user">Фото</h2>
+        </div>
+      </section>
+    </main>
+    <!-- <footer class="footer">
+      <div class="container footer-container">
+        <a class="header-logo" href="#"
+          ><img src="./img/Logo.png" alt="logo"
+        /></a>
+        <p class="footer-visiting-card">Created by Sofiia Nikolenko</p>
+      </div>
+    </footer> -->
+  </body>
+</html>

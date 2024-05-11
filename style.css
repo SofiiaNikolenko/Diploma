@@ -57,6 +57,23 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.active-page {
+  position: relative;
+  display: block;
+  color: var(--mint-green);
+}
+.active-page::after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: calc(29px + 29px - 9px);
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: var(--mint-green);
+  border-radius: 2px;
+}
+
 /* HEADER */
 
 /* TODO: змінити лого на свг */
@@ -131,7 +148,7 @@ body {
 }
 .hero-container {
   font-weight: 700;
-  padding: 150px 0;
+  padding: 250px 0;
   max-width: 754px;
   margin: 0 auto;
   text-align: center;
@@ -299,7 +316,13 @@ body {
 .container {
 }
 .footer-container {
-  padding: 30px;
+  padding: 20px;
 }
 .header-logo {
+}
+
+.footer-visiting-card {
+  color: var(--neutral);
+  text-align: center;
+  margin-top: 10px;
 }
